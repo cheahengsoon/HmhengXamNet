@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HmhengXamNet"
+             x:Class="HmhengXamNet.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtIPAddress" Text="192.168.0.103" />
+            <Entry x:Name="txtPort" Text="7000" />
+            <Entry x:Name="txtMessage" Text="Message" />
+            <Button x:Name="btnConnect" Text="Send" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
